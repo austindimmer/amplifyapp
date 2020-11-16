@@ -6,8 +6,6 @@ Amplify.configure(awsconfig)
 import React from 'react';
 import { withAuthenticator, AmplifySignOut } from '@aws-amplify/ui-react';
 
-export default withAuthenticator(App);
-
 function App() {
   return (
     <div className="App">
@@ -34,4 +32,4 @@ function App() {
   );
 }
 
-export default App;
+export default withAuthenticator(App);
