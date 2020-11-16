@@ -7,9 +7,21 @@ const awsmobile = {
     "aws_cognito_region": "ca-central-1",
     "aws_user_pools_id": "ca-central-1_0IpFnDCtf",
     "aws_user_pools_web_client_id": "1r61muph86b3qq2jcjntjuajgn",
-    "oauth": {}
+    "oauth": {
+        "domain": "amplifyappeb63d598-eb63d598-dev.auth.ca-central-1.amazoncognito.com",
+        "scope": [
+            "phone",
+            "email",
+            "openid",
+            "profile",
+            "aws.cognito.signin.user.admin"
+        ],
+        "redirectSignIn": "https://jwt.ms/",
+        "redirectSignOut": "https://jwt.ms/",
+        "responseType": "code"
+    },
+    "federationTarget": "COGNITO_USER_POOLS"
 };
-
 
 
 export default awsmobile;
