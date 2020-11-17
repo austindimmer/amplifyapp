@@ -1,0 +1,17 @@
+{
+  "trigger": true,
+  "modules": [
+    "email-filter-whitelist"
+  ],
+  "parentResource": "amplifyapp281f8ed3",
+  "functionName": "amplifyapp281f8ed3PreSignup",
+  "resourceName": "amplifyapp281f8ed3PreSignup",
+  "parentStack": "auth",
+  "triggerEnvs": [],
+  "triggerDir": "/usr/local/lib/node_modules/@aws-amplify/cli/node_modules/amplify-category-auth/provider-utils/awscloudformation/triggers/PreSignup",
+  "triggerTemplate": "PreSignup.json.ejs",
+  "roleName": "amplifyapp281f8ed3PreSignup",
+  "skipEdit": true,
+  "DOMAINWHITELIST": "cpu.ca, gmail.com",
+  "enableCors": false
+}
