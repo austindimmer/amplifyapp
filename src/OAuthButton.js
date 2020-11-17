@@ -6,7 +6,7 @@ import React, { Component } from 'react';
 class OAuthButton extends React.Component {
   handleClick() {
     // do something meaningful, Promises, if/else, whatever, and then
-    window.location.assign('https://adtest.auth.ca-central-1.amazoncognito.com/oauth2/authorize?identity_provider=CPU&redirect_uri=https://master.d319jjiyplkdxt.amplifyapp.com//&response_type=TOKEN&client_id=50jsdc8vbk983369gut9htgat6&scope=aws.cognito.signin.user.admin email openid');
+    window.location.assign('https://adtest.auth.ca-central-1.amazoncognito.com');
   }
 
   render() {
